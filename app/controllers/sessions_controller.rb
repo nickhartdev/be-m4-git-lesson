@@ -34,7 +34,7 @@ class SessionsController < ApplicationController
   #   redirect_to admin_dashboard_path if user.admin?
   # end
 
-  def authenticated?(user, params)
-    user && user.authenticate(params[:session][:password])
-  end
+  # def authenticated?(user, params)
+  #   user && user.authenticate(params[:session][:password])
+  # end
 end
